@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
+body {
+    background-color: yellow;
+}
+
 p.decipher {
   font-family: 'Comic Neue', cursive;
   color: blue;
@@ -9,8 +13,4 @@ p.decipher {
 
 .bugre-container {
   text-align: center;
-}
-
-.header-img {
-    margin-left: 12px;
 }
