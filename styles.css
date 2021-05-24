@@ -1,16 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
+@font-face {
+  font-family: 'Wingdings';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Wingdings'), url('wingding.woff') format('woff');
+  }
+
 body {
-    background-color: yellow;
+    background: url('rainbowback.jpg');
 }
 
-p.decipher {
+h1 {
+  font-size: 1rem;
+}
+
+p.trigger {
   font-family: 'Comic Neue', cursive;
-  color: blue;
+  color: white;
   font-size: 20px;
   margin-left: 200px;
 }
 
-.bugre-container {
-  text-align: center;
+.decipher {
+  font-family:'Wingdings';font-size: 42px;
+  font-weight:normal;
+}
+
+.moving-flower {
+  background-size: contain;
+  height: 100px;
+  background-image: url("nsfw.jpg");
+}
+
+.moving-flower p {
+  color: rgb(255, 6, 255);
+}
+
+.trigger-bugre > * {
+  height: 20px;
 }
